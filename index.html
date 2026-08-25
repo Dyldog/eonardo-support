@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Support for Eonardo, the emoji pixel-art studio.">
+  <title>Eonardo Support</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #15224a;
+      --muted: #526287;
+      --accent: #e85477;
+      --accent-dark: #c9365b;
+      --sky: #dce8ff;
+      --paper: #fffdfb;
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: radial-gradient(circle at top right, #ffceda 0, transparent 28rem), var(--sky);
+      color: var(--ink);
+      font: 18px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    main {
+      max-width: 720px;
+      min-height: 100vh;
+      margin: 0 auto;
+      padding: 56px 28px;
+      background: var(--paper);
+    }
+    .eyebrow {
+      margin: 0 0 8px;
+      color: var(--accent-dark);
+      font-size: .8rem;
+      font-weight: 800;
+      letter-spacing: .12em;
+    }
+    h1, h2 { line-height: 1.15; }
+    h1 { margin: 0; font-size: clamp(2.7rem, 10vw, 5rem); letter-spacing: -.06em; }
+    h2 { margin-top: 2.2em; font-size: 1.45rem; }
+    .tagline { margin-top: .5em; color: var(--muted); font-size: 1.2rem; }
+    a { color: var(--accent-dark); font-weight: 750; }
+    .contact {
+      display: inline-block;
+      margin-top: .4em;
+      padding: .85em 1.15em;
+      border-radius: .8em;
+      background: var(--accent);
+      color: white;
+      font-weight: 800;
+      text-decoration: none;
+      box-shadow: 0 8px 18px rgb(232 84 119 / 25%);
+    }
+    .contact:hover { background: var(--accent-dark); }
+    li + li { margin-top: .5em; }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="eyebrow">EONARDO • EMOJI PIXEL ART</p>
+    <h1>Eonardo Support</h1>
+    <p class="tagline">Make art out of emoji, one tiny square at a time.</p>
+
+    <h2>Getting started</h2>
+    <ol>
+      <li>In <strong>My Pictures</strong>, select <strong>New Picture</strong>.</li>
+      <li>Choose an emoji in the palette, then tap or drag across the canvas.</li>
+      <li>Select <strong>Add emojis</strong> to expand your palette.</li>
+      <li>Use <strong>Grid</strong> to change the canvas size while preserving the edge that matters.</li>
+      <li>Select <strong>Copy</strong> and paste your emoji artwork into a message.</li>
+    </ol>
+    <p>Pictures save automatically in your local library.</p>
+
+    <h2>Need help?</h2>
+    <p>Include your device model, system version, and a short description of what happened. Please do not include private artwork unless it is necessary to explain the issue.</p>
+    <p><a class="contact" href="https://github.com/Dyldog/eonardo-support/issues/new/choose">Open a support request</a></p>
+  </main>
+</body>
+</html>
